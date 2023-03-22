@@ -1,0 +1,22 @@
+.shimmerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.shimmer{
+  position: relative;
+    width: 300px;
+    height: 40vh;
+    margin: 1rem;
+    border-radius: 2rem;
+    background-color: #506478;
+    background-image: linear-gradient(to right, #222930 0%, #111318 20%, #2d3237 40%, #303d49 100%);
+    background-repeat: no-repeat;
+    background-position: -200px 0;
+    animation: shimmer 1s ease-out forwards infinite;
+}
+@keyframes shimmer {
+    100% {
+      background-position: 200px 0;
+    }
+  }

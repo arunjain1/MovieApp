@@ -1,0 +1,119 @@
+
+.mov_title{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100px;
+   text-decoration: dotted;
+   font-weight: 800;
+   font-size: large;
+   background-color:#292826;
+   color: #F9D342;
+}
+.mov_img{
+    width : 100vw;
+    height: 60vh;
+}
+.mov_img>*{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.mov_poster{
+    width: 40%;
+    height: 100%;
+    margin:10px;
+    position: relative;
+}
+
+.mov_poster>*{
+
+    border-radius: 2rem;
+     height: 100%;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.mov_info{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width:100vw;
+    margin-bottom: 20px;
+}
+.mov_extras{
+    margin:10px;
+    width : 50%;
+    
+}
+
+.movie_description{
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#358597;
+    color: white;
+    font-size: medium;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 2rem;
+}
+.mov_detail{
+    padding: 10px;
+    background-color: #FFFFFF;
+    color :#8AAAE5;
+    font-size: 20px;
+    border-radius: 2rem;
+}
+.mov_extras{
+    overflow: scroll; 
+}
+.heading{
+    font-weight: bolder;
+    color: darkblue;
+    font-size: larger;
+}
+.mov_data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #a9dce3;
+    color :#7689de;
+    border-radius: 2rem;
+}
+.mov_value{
+    font-size: medium;
+    font-style: oblique;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+.mov_val{
+    display: flex;
+    justify-content: space-around;
+}
+.review_heading{
+    margin-top: 20px;
+    color: bisque;
+    height: 50px;
+    background-color: #2F3C7E;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.review_val{
+    text-align: center;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color :#8AAAE5;
+    font-size: 20px;
+    border-radius: 2rem;
+}
+

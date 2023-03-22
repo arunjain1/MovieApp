@@ -1,0 +1,34 @@
+.banner{
+    width : 100vw;
+    height: 60vh;
+    /* position: relative;
+    top : 72px; */
+}
+.banner_poster{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.bannertitle{
+    color: azure;
+    position: absolute;
+    top :50vh;
+    left: 40vw;
+    opacity: .5;
+    background-color: transparent;
+}
+.shimmerHeader{
+    width : 100vw;
+    height: 60vh;
+    background-color: #272d32;
+    background-image: linear-gradient(to right, #14181d 0%, #7b7e86 20%, #3b4d5e 40%, #424a53 100%);
+    background-repeat: no-repeat;
+    background-position: -200px 0;
+    animation: shimmer 1s ease-out forwards infinite;
+}
+@keyframes shimmer {
+    100% {
+      background-position: 200px 0;
+    }
+  }

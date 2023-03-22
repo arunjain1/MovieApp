@@ -1,0 +1,36 @@
+.pagination_cnt{
+  /* margin-top :70px; */
+  margin-bottom : 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.pagination_btn {
+    border: 1px solid #5575b1;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: black;
+    color: peachpuff;
+    margin-right: 1px;
+}
+
+.page_no {
+    width: 2rem;
+    height: 2rem;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slateblue;
+    color : lightcoral;
+    border: 2px solid rgb(46, 27, 174);
+    margin-right: 1px;
+}
